@@ -35,7 +35,7 @@ public class AddStudentFrame extends JFrame implements ActionListener {
         Nav_Panel.setLayout(null);
         Nav_Panel.setBackground(new Color(0x5170ff));
         Nav_Panel.setBounds(0, 0, 1920, 70);
-        // Logo in Navigation Bar
+
         ImageIcon Logo = new ImageIcon("C:\\Users\\Rain Sidney\\OneDrive\\Documents\\BSIT College Files\\2nd Year 1st Sem\\OOP\\Project 1\\src\\system\\Images\\Student Record Logo Revert.png");
         Image scaledLogo = Logo.getImage().getScaledInstance(55, 55, Image.SCALE_SMOOTH);
         ImageIcon resizedIcon = new ImageIcon(scaledLogo);
@@ -50,6 +50,7 @@ public class AddStudentFrame extends JFrame implements ActionListener {
         ImageIcon Profile = new ImageIcon("C:\\Users\\Rain Sidney\\OneDrive\\Documents\\BSIT College Files\\2nd Year 1st Sem\\OOP\\Project 1\\src\\system\\Images\\New Formal Picture.png");
         Image scaledProfile = Profile.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH);
         ImageIcon resizedProfile = new ImageIcon(scaledProfile);
+
         JLabel ProfilePic = new JLabel();
         ProfilePic.setIcon(resizedProfile);
         ProfilePic.setBounds(1340, 10, 50, 50);
@@ -63,6 +64,7 @@ public class AddStudentFrame extends JFrame implements ActionListener {
         ImageIcon Online = new ImageIcon("C:\\Users\\Rain Sidney\\OneDrive\\Documents\\BSIT College Files\\2nd Year 1st Sem\\OOP\\Project 1\\src\\system\\Images\\Online.png");
         Image Active = Online.getImage().getScaledInstance(13, 13, Image.SCALE_SMOOTH);
         ImageIcon OnActive = new ImageIcon(Active);
+        
         JLabel OnStat = new JLabel();
         OnStat.setIcon(OnActive);
         OnStat.setBounds(1400, 37, 13, 13);

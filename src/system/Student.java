@@ -17,6 +17,8 @@ public class Student {
     private double scienceAve, mathAve, languageAve, historyAve, artsAve, peAve, musicAve, valuesAve;
     private double gwa;
 
+    public Student() {}
+
     public Student(String id, String name, String course, double sciencePrelim, double scienceMidterm, double scienceFinal,
                    double mathPrelim, double mathMidterm, double mathFinal, double languagePrelim, double languageMidterm, 
                    double languageFinal, double historyPrelim, double historyMidterm, double historyFinal, double artsPrelim, 
@@ -84,7 +86,7 @@ public class Student {
     private double calculate(double science, double math, double language, double history, double arts, double pe, double music, double values) {
         return (science + math + language + history + arts + pe + music + values) / 8.0;
     }
-    // Tagakuha ko
+    
     public String getId() { return id; }
     public String getName() { return name; }
     public String getCourse() { return course; }
