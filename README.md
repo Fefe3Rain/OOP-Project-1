@@ -1,18 +1,10 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Project: Student Record System (with GUI)
+Description: Develop a Java Program that manages student information and calculates grades using constructors and method overloading. The system should:
+    1. Allow creating student objects with different constructors (default and with parameters).
+    2. Use method overloading for calculating grades (e.g., average of 2, 3, or 4 subjects).
+    3. Display the complete student information along with computed grades.
+    4. Graphical User Interface
+Developer: Rain Sidney G. Alberto
+Course & Section: BSIT-2A
+Starting Date: September 29, 2025
+End Date: October 5, 2025
